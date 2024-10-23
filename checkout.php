@@ -31,7 +31,7 @@ if(isset($_POST['submit'])){
 
          if ($metode == 'qris') {
             require_once 'midtrans-php-master/Midtrans.php';
-            \Midtrans\Config::$serverKey = 'SB-Mid-server-xMXY_YG8WTYcygPT4-w7sM0O';
+            \Midtrans\Config::$serverKey = '#';
             \Midtrans\Config::$isProduction = false;
             \Midtrans\Config::$isSanitized = true;
             \Midtrans\Config::$is3ds = true;
@@ -103,7 +103,7 @@ if(isset($_POST['submit'])){
    <link rel="stylesheet" href="css/style.css">
    <script type="text/javascript"
        src="https://app.sandbox.midtrans.com/snap/snap.js"
-       data-client-key="SB-Mid-client-_BKnKzE5btN09tMI"></script>
+       data-client-key="#"></script>
 </head>
 <body>
    

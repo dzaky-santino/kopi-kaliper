@@ -2,7 +2,7 @@
 include 'components/connect.php';
 require_once 'midtrans-php-master/Midtrans.php';
 
-\Midtrans\Config::$serverKey = 'SB-Mid-server-xMXY_YG8WTYcygPT4-w7sM0O';
+\Midtrans\Config::$serverKey = '#';
 \Midtrans\Config::$isProduction = false;
 \Midtrans\Config::$isSanitized = true;
 \Midtrans\Config::$is3ds = true;
