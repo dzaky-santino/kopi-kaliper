@@ -33,6 +33,3 @@ Pastikan Anda sudah menginstal software berikut:
    ```bash
    git clone https://github.com/dzaky-santino/kopi-kaliper.git
 
-   
-
-
